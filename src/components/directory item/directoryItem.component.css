@@ -1,0 +1,27 @@
+.directory-item {
+  margin: 3rem 0;
+  height: 40rem;
+  border-radius: 2rem;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.directory-item-card {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.directory-item-card h1 {
+  padding-top: 32rem;
+  font-weight: bolder;
+  font-size: 2rem;
+  color: white;
+}
+
+.directory-item-card p {
+  font-weight: normal;
+  font-size: 1.1rem;
+  color: rgb(179, 179, 179);
+}

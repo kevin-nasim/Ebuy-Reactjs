@@ -5,7 +5,7 @@ import Navbar from "../../components/navbar/Navbar.component";
 const Homepage = () => {
   return (
     <>
-      <Navbar />
+      <Navbar invert={0} />
       <LandingPage />
       <Directory />
     </>

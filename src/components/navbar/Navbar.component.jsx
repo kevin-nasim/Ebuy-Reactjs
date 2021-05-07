@@ -2,11 +2,17 @@ import "./navbar.component.css";
 import hamburgerMenu from "../../Svgs/hamburger menu.svg";
 import cart from "../../Svgs/cart.svg";
 
-const Navbar = () => {
+const Navbar = ({ invert }) => {
+  console.log(invert);
   return (
     <div className="navbar">
       <div className="container">
-        <div className="navbar-component">
+        <div
+          className="navbar-component"
+          style={{
+            filter: `invert(${invert})`,
+          }}
+        >
           <div className="navbar-menu">
             <img src={hamburgerMenu} alt="" />
           </div>

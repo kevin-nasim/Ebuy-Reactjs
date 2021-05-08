@@ -14,7 +14,12 @@ const Navbar = ({ invert }) => {
           }}
         >
           <div className="navbar-menu">
-            <img src={hamburgerMenu} alt="" />
+            <img className="menu-mobile" src={hamburgerMenu} alt="" />
+            <div className="menu-desktop">
+              <p>Shop</p>
+              <p>Contact</p>
+              <p>Favorite</p>
+            </div>
           </div>
 
           <div className="logo">

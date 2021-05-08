@@ -25,3 +25,61 @@
   font-size: 300%;
   text-align: center;
 }
+
+@media all and (min-width: 750px) and (max-width: 1240px) {
+  .landing-page {
+    height: 40vh;
+    margin-top: 15rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .landind-page-heading {
+    display: flex;
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .landind-page-heading h1 {
+    color: white;
+    margin-top: 12rem;
+    font-size: 350%;
+    text-align: center;
+  }
+
+  .landind-page-heading span {
+    display: block;
+    margin-left: -4.5rem;
+  }
+}
+
+@media all and (min-width: 1240px) {
+  .landing-page {
+    height: 60vh;
+    margin-top: 15rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .landind-page-heading {
+    display: flex;
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .landind-page-heading h1 {
+    color: white;
+    margin-top: 18rem;
+    font-size: 500%;
+    text-align: center;
+  }
+
+  .landind-page-heading span {
+    display: block;
+    margin-left: -5.2rem;
+  }
+}

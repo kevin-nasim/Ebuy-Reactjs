@@ -1,6 +1,7 @@
 import "./navbar.component.css";
 import hamburgerMenu from "../../Svgs/hamburger menu.svg";
 import cart from "../../Svgs/cart.svg";
+import { Link } from "react-router-dom";
 
 const Navbar = ({ invert }) => {
   console.log(invert);
@@ -10,15 +11,14 @@ const Navbar = ({ invert }) => {
         <div
           className="navbar-component"
           style={{
-            filter: `invert(${invert})`,
+            filter: `invert(0)`,
           }}
         >
           <div className="navbar-menu">
             <img className="menu-mobile" src={hamburgerMenu} alt="" />
             <div className="menu-desktop">
-              <p>Shop</p>
-              <p>Contact</p>
-              <p>Favorite</p>
+              <Link to="/shop"> Shop </Link>
+              <Link to="/"> Contact </Link>
             </div>
           </div>
 

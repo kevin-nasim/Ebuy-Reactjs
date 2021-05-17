@@ -1,0 +1,16 @@
+.preview-shop-title {
+  margin-top: 6rem;
+  margin-left: 2rem;
+}
+
+.preview {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.preview::-webkit-scrollbar {
+  display: none;
+}

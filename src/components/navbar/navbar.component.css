@@ -3,10 +3,11 @@
   position: absolute;
   width: 100%;
   z-index: 100;
+  background-color: black;
 }
 
 .navbar-component {
-  height: 8rem;
+  height: 6rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -23,7 +24,8 @@
   display: none;
 }
 
-.navbar-menu .menu-desktop p {
+.navbar-menu .menu-desktop a {
+  color: white;
   margin-left: 30%;
   font-size: 1.4rem;
   font-weight: 300;
@@ -48,7 +50,7 @@
 
   .logo h1 {
     position: relative;
-    margin-left: -100%;
+    margin-left: -60%;
   }
 
   .navbar-menu .menu-desktop {
